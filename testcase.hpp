@@ -10,7 +10,12 @@ class TestCase {
 	std::string get();
 
 	private:
-	enum class specifiers { func_ident, on_type };
+	const std::string on_type_s = "on_type";
+	const std::string func_ident_s = "func_ident";
+	const std::string arg_s = "arg";
+
 	std::map<std::string, std::string> keywords;
+	std::map<std::string, std::string> args;
 };
+
 #endif
