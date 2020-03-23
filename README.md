@@ -33,3 +33,5 @@ Some things to note:
 ```
 //testbuilder: FUNC_IDENT [on_type IDENT] args: [TYPE[ ...]]
 ```
+Look at [example_pkg](https://github.com/ClaytonMcCray/example_pkg) for concrete annotation examples.
+
